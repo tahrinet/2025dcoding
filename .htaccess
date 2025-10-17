@@ -1,0 +1,17 @@
+Options All -Indexes
+
+RewriteEngine On
+
+RewriteBase /2025DCODING/
+
+# Redirection pour les pages clients
+RewriteRule ^ajouterclient$ views/viewClient/addClient.php [L]
+RewriteRule ^listeclients$ views/viewClient/listClients.php [L]
+RewriteRule ^voirclient$ views/viewClient/showClient.php [L]
+RewriteRule ^modifierclient$ views/viewClient/updateClient.php [L]
+RewriteRule ^supprimerclient$ views/viewClient/deleteClient.php [L]
+
+# Règle générale pour les autres pages
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([-a-zA-Z0-9]+)$ index.php?page=$1 [QSA,L]
