@@ -1,4 +1,3 @@
-
 <h1>Liste Clients</h1>
 
 <?php

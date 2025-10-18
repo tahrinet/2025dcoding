@@ -1,6 +1,6 @@
 <?php
-require_once 'views/includes/header.php';
 require_once './autoload.php';
+require_once 'views/includes/header.php';
 
 $home = new HomeController();
 $pages =['updateClient','deleteClient', 'showClient','addClient','listClients','home'];
@@ -19,3 +19,9 @@ else
 {
     $home->index('home');
 } 
+
+?>
+
+<?php
+    require_once 'views/includes/footer.php'
+?>

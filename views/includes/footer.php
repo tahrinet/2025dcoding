@@ -1,3 +1,6 @@
+<div style="background-color: bisque; border-radius: 2%;" class="fixed-bottom mt-5">
+    <h2 style="text-align: center; color:gray">Pieds de Page 2025</h2>
+</div> 
 
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
